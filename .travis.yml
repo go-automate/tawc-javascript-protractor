@@ -14,4 +14,5 @@ before_script:
 #  - "echo test app started"
 
 script: 
- - npm test
+ - npm run speedTest
+ - npm run reliabilityTest

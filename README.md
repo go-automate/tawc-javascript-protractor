@@ -34,3 +34,5 @@ TO DO:
 Speed test runs 8 tests
 
 Reliability test runs 400 tests
+
+The by.cssContainingText functionality is very useful

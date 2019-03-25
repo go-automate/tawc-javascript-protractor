@@ -25,7 +25,8 @@ exports.config = {
     // run a group of tests
     specs: ['specs/*.spec.js'],
     suites: {
-         products: 'specs/*.spec.js'
+         speed: 'specs/speed-test.spec.js',
+         reliability: 'specs/reliability-test.spec.js'
     },
 
     framework: 'jasmine',

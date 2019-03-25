@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "protractor ./test/protractor.conf.js",
+    "speedTest": "protractor ./test/protractor.conf.js --suite=speed",
+    "reliabilityTest": "protractor ./test/protractor.conf.js --suite=reliability",
     "startSelenium": "webdriver-manager start",
-    "updateSelenium": "webdriver-manager update" 
+    "updateSelenium": "webdriver-manager update"
   },
   "repository": {
     "type": "git",
