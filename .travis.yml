@@ -7,7 +7,7 @@ node_js:
 before_script:
   - npm run updateSelenium
   - npm run startSelenium 2>&1 &
-  - sleep 3
+  - sleep 10
   - echo Selenium Server started
 #  - "npm start 2>&1 &" //for ref when/if we include the app starting in here
 #  - "sleep 1"
