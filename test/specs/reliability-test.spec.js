@@ -10,7 +10,7 @@ const checks = require("../support/checks");
 
 // Test Data
 const using = require("jasmine-data-provider");
-const productData = require("../data/test-data.json");
+const productData = require("../data/reliability-test-data.json");
 
 // Helper functions
 async function deleteProducts(product){

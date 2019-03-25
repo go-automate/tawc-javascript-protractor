@@ -31,3 +31,6 @@ TO DO:
 10. On windows? 
 
 
+Speed test runs 8 tests
+
+Reliability test runs 400 tests
