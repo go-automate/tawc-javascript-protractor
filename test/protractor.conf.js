@@ -2,7 +2,7 @@ var HtmlReporter = require('protractor-beautiful-reporter');
 
 exports.config = {
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    baseUrl: 'http://automate.safebear.co.uk:8080/',
+    baseUrl: 'http://localhost:8080/',
 
     // capabilities: {
     //     'browserName': 'chrome'

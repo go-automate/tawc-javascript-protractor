@@ -40,7 +40,6 @@ async function deleteProducts(product){
   }
 
 }
-
 async function createProduct(product){
 
   while(!await checks.elementsArePresent(productsPage.getProductInTable(product.name))){
